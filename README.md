@@ -27,8 +27,7 @@ Deepfake detection using CNN (TensorFlow &amp; OpenCV) achieving 89% accuracy wi
 - [Author](#-author)
 - [Key Features](#-key-features)
 - [Problem Statement](#-problem-statement)
-- [Technology Stack](#-technology-stack)<img width="1085" height="260" alt="image" src="https://github.com/user-attachments/assets/490b2e47-b934-4c4b-813f-09aa68090683" />
-
+- [Technology Stack](#-technology-stack)
 - [Dataset](#-dataset)
 - [Model Architecture](#-model-architecture)
 - [Methodology](#-proposed-methodology)
@@ -65,7 +64,7 @@ This project provides a **lightweight**, **effective**, and **interpretable** so
 
 **Vidur Gupta**  
 B.Tech in Computer Science and Engineering  
-Manipal University Jaipur
+Manipal University Jaipur  
 Roll Number: 23FE10CSE00481
 
 **Supervised By:** Dr. Rishi Kumar Srivastava  
@@ -433,14 +432,14 @@ The ROC curve demonstrates excellent discriminatory power:
 ### Sample Predictions
 
 #### Real Image Detection
-![Real Image Example](result/prediction_real.png)
+![Real Image Example](result/prediction_example1.png)
 
 **Prediction:** REAL (0.17)  
 **Confidence:** 83%  
 **Analysis:** Model correctly identifies natural facial features and authentic image characteristics
 
 #### Fake Image Detection
-![Fake Image Example](result/prediction_fake.png.png)
+![Fake Image Example](result/prediction_example2.png)
 
 **Prediction:** FAKE (0.79)  
 **Confidence:** 79%  
@@ -497,8 +496,8 @@ deepfake_detection_cnn/
 ├── 📂 result/                       # Model outputs and performance metrics
 │   ├── confusion_matrix.png        # Confusion matrix visualization
 │   ├── roc_curve.png              # ROC curve and AUC score
-│   ├── prediction_real.png     # Sample real image prediction
-│   └── prediction_fake.png     # Sample fake image prediction
+│   ├── prediction_example1.png     # Sample real image prediction
+│   └── prediction_example2.png     # Sample fake image prediction
 │
 ├── 📄 deepfake_detection.ipynb      # Main Jupyter notebook
 ├── 📄 README.md                     # Project documentation (this file)

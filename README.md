@@ -438,7 +438,7 @@ The ROC curve demonstrates excellent discriminatory power:
 **Analysis:** Model correctly identifies natural facial features and authentic image characteristics
 
 #### Fake Image Detection
-![Fake Image Example](result/prediction_example2.png)
+![Fake Image Example](result/prediction_fake.png)
 
 **Prediction:** FAKE (0.79)  
 **Confidence:** 79%  
@@ -496,7 +496,7 @@ deepfake_detection_cnn/
 │   ├── confusion_matrix.png        # Confusion matrix visualization
 │   ├── roc_curve.png              # ROC curve and AUC score
 │   ├── prediction_real.png     # Sample real image prediction
-│   └── prediction_example2.png     # Sample fake image prediction
+│   └── prediction_fake.png     # Sample fake image prediction
 │
 ├── 📄 deepfake_detection.ipynb      # Main Jupyter notebook
 ├── 📄 README.md                     # Project documentation (this file)
